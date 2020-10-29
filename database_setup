@@ -1,0 +1,36 @@
+// Setting up git aliases
+ git config --global alias.co checkout
+ git config --global alias.br branch
+ git config --global alias.ci commit
+ git config --global alias.st status
+
+
+
+
+
+// For saving the git credentials
+git config --global credential.helper store
+git pull
+-> Another method-
+  git config --global user.name "your username"
+  git config --global user.password "your password"
+
+
+
+
+
+
+// For creating the DB using teststar dump file
+sudo mysql -u root -p
+mysql -u root -p teststar < dump_test-star.sql 
+sudo mysql -u root -p teststar < dump_test-star.sql 
+sudo mysql -u root -p
+
+
+// Setting up the environment and running 
+curl -s "https://get.sdkman.io" | bash
+sudo apt install curl
+curl -s "https://get.sdkman.io" | bash 
+sdk install java
+sudo apt-get install maven
+
